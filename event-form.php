@@ -74,7 +74,7 @@
 						<div class="row">
 							
 									<div class="form-group col-md-12">
-										<label for="name" style="font-size:160%;">Naame*</label>
+										<label for="name" style="font-size:160%;">Name*</label>
 										<input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
 									</div>
 									<div class="form-group col-md-12">
