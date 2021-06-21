@@ -280,7 +280,7 @@
 			$ins_oth = mysqli_real_escape_string($conn ,strip_tags($_POST['s7']));
 		}
 		
-		$ins_sql = "INSERT INTO event(name ,email ,mobile ,dob ,gender ,skills ,other) VALUES('$ins_name','$ins_email','$ins_mobile','$ins_dob','$ins_gender','$ins_skills','$ins_oth')";
+		$ins_sql = "INSERT INTO event(nam ,email ,mobile ,dob ,gender ,skills ,other) VALUES('$ins_name','$ins_email','$ins_mobile','$ins_dob','$ins_gender','$ins_skills','$ins_oth')";
 		if(mysqli_query($conn ,$ins_sql)){
 			?>
 			<script>window.location="event-form.php";</script>
