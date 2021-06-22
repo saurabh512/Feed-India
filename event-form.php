@@ -244,7 +244,7 @@
 		#$pass = "pg2000";
 		#$db = "builder";
 		
-		$server = "remotemysql.com:3306";
+		$server = "remotemysql.com:3036";
 		$user = "7OPHZxIQD3";
 		$pass = "ajCgz2AyIH";
 		$db = "7OPHZxIQD3";
