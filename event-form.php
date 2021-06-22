@@ -244,7 +244,7 @@
 		#$pass = "pg2000";
 		#$db = "builder";
 		
-		$server = "remotemysql.com";
+		$server = "remotemysql.com:3306";
 		$user = "7OPHZxIQD3";
 		$pass = "ajCgz2AyIH";
 		$db = "7OPHZxIQD3";
@@ -282,6 +282,7 @@
 		
 		$ins_sql = "INSERT INTO event(nam ,email ,mobile ,dob ,gender ,skills ,other) VALUES('$ins_name','$ins_email','$ins_mobile','$ins_dob','$ins_gender','$ins_skills','$ins_oth')";
 		if(mysqli_query($conn ,$ins_sql)){
+			alert("success");
 			?>
 			<script>window.location="event-form.php";</script>
 			<?php
